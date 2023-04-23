@@ -1,0 +1,4 @@
+TestCases\Homepagetest.class
+TestCases\LoginTest.class
+Pages\LoginPage.class
+TestCases\Baseclass.class

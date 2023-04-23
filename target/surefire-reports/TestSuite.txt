@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 48.828 s <<< FAILURE! - in TestSuite
+TestCases.Homepagetest.setup[public void TestCases.Homepagetest.test3()](0)  Time elapsed: 15.932 s  <<< FAILURE!
+java.lang.NullPointerException
+
