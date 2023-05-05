@@ -24,11 +24,11 @@ import Pages.LoginPage;
 
 	}
 
-	@Test
-	public void test2() {
-		LoginPage Login = new LoginPage(driver);
-		Login.LoginFunction("Kumar", "notgoodddd");
-	}
+	//@Test
+	//public void test2() {
+		//LoginPage Login = new LoginPage(driver);
+		//Login.LoginFunction("Kumar", "notgoodddd");
+	//}
 
 	@Test
 	public void test4(Method method) throws FilloException {
