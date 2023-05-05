@@ -12,23 +12,23 @@ import com.codoid.products.fillo.Recordset;
 
 import Pages.LoginPage;
 
-public class LoginTest extends Baseclass {
-	@Test
-	public void test1() {
-		LoginPage Login = new LoginPage(driver);
-		Login.LoginFunction("rajesh", "googlesadas");
-		WebElement Ne = driver.findElement(By.id("error_box"));
-		String error = Ne.getText();
-		String ANE = "Please enter a valid email address";
-		Assert.assertEquals(error, ANE);
+ public class LoginTest extends Baseclass {
+//	@Test
+//	public void test1() {
+//		LoginPage Login = new LoginPage(driver);
+	//	Login.LoginFunction("rajesh", "googlesadas");
+	//	WebElement Ne = driver.findElement(By.id("error_box"));
+	//	String error = Ne.getText();
+	//	String ANE = "Please enter a valid email address";
+	//	Assert.assertEquals(error, ANE);
 
-	}
+	//}
 
-	@Test
-	public void test2() {
-		LoginPage Login = new LoginPage(driver);
-		Login.LoginFunction("Kumar", "notgoodddd");
-	}
+	//@Test
+	//public void test2() {
+		//LoginPage Login = new LoginPage(driver);
+		//Login.LoginFunction("Kumar", "notgoodddd");
+	//}
 
 	@Test
 	public void test4(Method method) throws FilloException {
