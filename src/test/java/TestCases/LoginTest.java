@@ -15,7 +15,7 @@ import Pages.LoginPage;
  public class LoginTest extends Baseclass {
 //	@Test
  public void test1() {
-	LoginPage Login = new LoginPage(driver);
+	   LoginPage Login = new LoginPage(driver);
 		Login.LoginFunction("rajesh", "googlesadas");
 	    WebElement Ne = driver.findElement(By.id("error_box"));
 	    String error = Ne.getText();
@@ -24,11 +24,11 @@ import Pages.LoginPage;
 
 	}
 
-	//@Test
-	//public void test2() {
-		//LoginPage Login = new LoginPage(driver);
-		//Login.LoginFunction("Kumar", "notgoodddd");
-	//}
+	@Test
+	public void test2() {
+		LoginPage Login = new LoginPage(driver);
+		Login.LoginFunction("Kumar", "notgoodddd");
+	}
 
 	@Test
 	public void test4(Method method) throws FilloException {
