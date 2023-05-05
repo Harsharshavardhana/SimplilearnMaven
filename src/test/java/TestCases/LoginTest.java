@@ -1,5 +1,7 @@
 package TestCases;
 
+import java.lang.reflect.Method;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -25,12 +27,12 @@ public class LoginTest extends Baseclass {
 	@Test
 	public void test2() {
 		LoginPage Login = new LoginPage(driver);
-		Login.LoginFunction("Kumar", "not good ddd");
+		Login.LoginFunction("Kumar", "notgoodddd");
 	}
 
 	@Test
-	public void test4() throws FilloException {
-		Recordset recordset = connection.executeQuery("select * from data where TestName='test4'");
+	public void test4(Method method) throws FilloException {
+		Recordset recordset = connection.executeQuery("select * from data where TestName='Test4'");
 		recordset.next();
 		String UserName = recordset.getField("UserName");
 		String Pasword = recordset.getField("Pasword");

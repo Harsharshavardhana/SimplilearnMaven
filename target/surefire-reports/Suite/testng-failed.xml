@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
-  <test thread-count="5" verbose="0" name="Test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
-      <class name="TestCases.Homepagetest">
+      <class name="TestCases.LoginTest">
         <methods>
-          <include name="test3"/>
+          <include name="test2"/>
           <include name="closeall"/>
+          <include name="test4" invocation-numbers="0"/>
           <include name="ReportCleen"/>
           <include name="Reportsetup"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- TestCases.Homepagetest -->
+      </class> <!-- TestCases.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

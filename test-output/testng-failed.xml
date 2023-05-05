@@ -5,8 +5,9 @@
     <classes>
       <class name="TestCases.LoginTest">
         <methods>
+          <include name="test2"/>
           <include name="closeall"/>
-          <include name="test4"/>
+          <include name="test4" invocation-numbers="0"/>
           <include name="ReportCleen"/>
           <include name="Reportsetup"/>
           <include name="setup"/>
