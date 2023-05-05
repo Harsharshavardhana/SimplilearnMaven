@@ -11,6 +11,7 @@
           <include name="ReportCleen"/>
           <include name="Reportsetup"/>
           <include name="setup"/>
+          <include name="test1"/>
         </methods>
       </class> <!-- TestCases.LoginTest -->
     </classes>
